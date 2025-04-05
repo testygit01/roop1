@@ -26,6 +26,5 @@ pyvirtualcam
 dask==2024.8.0
 distributed==2024.8.0
 
-# ✅ Fix for google-genai dependency
-websockets==13.0
-google-genai==0.3.0
+websockets==12.0
+
