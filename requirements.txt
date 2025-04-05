@@ -1,16 +1,13 @@
---extra-index-url https://download.pytorch.org/whl/cu118
+# PyTorch CPU versions
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
 
-# ✅ PyTorch with CUDA 11.8 support
-torch==2.1.2+cu118
-torchvision==0.16.2+cu118
-torchaudio==2.1.2+cu118
+# ONNX Runtime CPU (no CUDA needed)
+onnxruntime==1.17.0
 
-# ✅ ONNX Runtime GPU compatible with CUDA 11.8
-onnxruntime-gpu==1.16.0
-
-# ✅ Supporting packages
+# Stable versions compatible with Kaggle
 numpy==1.26.4
-gradio==4.43.0
 fastapi<0.113.0
 opencv-python==4.9.0.80
 onnx==1.17.0
@@ -21,3 +18,13 @@ tqdm==4.66.4
 ftfy
 regex
 pyvirtualcam
+
+# Match Kaggle's built-in versions
+dask==2024.8.0
+distributed==2024.8.0
+
+# Choose ONLY ONE of these:
+
+# ✅ Option A: Use Gradio
+gradio==4.43.0
+websockets==12.0
