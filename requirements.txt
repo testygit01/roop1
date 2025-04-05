@@ -21,10 +21,3 @@ tqdm==4.66.4
 ftfy
 regex
 pyvirtualcam
-
-# ✅ Fix dask version to match distributed (Kaggle default)
-dask==2024.8.0
-distributed==2024.8.0
-
-websockets==12.0
-
