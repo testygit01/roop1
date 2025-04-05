@@ -1,12 +1,12 @@
-# PyTorch CPU versions
+# CPU-only PyTorch
 torch==2.1.2
 torchvision==0.16.2
 torchaudio==2.1.2
 
-# ONNX Runtime CPU (no CUDA needed)
+# ONNX Runtime CPU version
 onnxruntime==1.17.0
 
-# Stable versions compatible with Kaggle
+# Core packages
 numpy==1.26.4
 fastapi<0.113.0
 opencv-python==4.9.0.80
@@ -19,12 +19,12 @@ ftfy
 regex
 pyvirtualcam
 
-# Match Kaggle's built-in versions
+# Match with Kaggle system packages
 dask==2024.8.0
 distributed==2024.8.0
 
-# Choose ONLY ONE of these:
-
-# ✅ Option A: Use Gradio
+# UI
 gradio==4.43.0
 websockets==12.0
+
+# (removed google-genai to fix conflicts)
