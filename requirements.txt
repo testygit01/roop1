@@ -26,5 +26,3 @@ distributed==2024.8.0
 # UI
 gradio==4.43.0
 websockets==12.0
-
-# (removed google-genai to fix conflicts)
